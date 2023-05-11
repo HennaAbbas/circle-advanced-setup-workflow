@@ -1,6 +1,3 @@
-# Config for the setup workflow and common resources (jobs, commands) for main workflows
-# `common-` prefix is added for common resources (to avoid conflicts with module resources)
-
 version: 2.1
 
 setup: << pipeline.parameters.run-setup >>
